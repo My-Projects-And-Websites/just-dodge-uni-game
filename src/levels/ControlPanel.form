@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="levels.ControlPanel">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="410" height="115"/>
+    </constraints>
+    <properties>
+      <focusable value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="4fcc1" class="javax.swing.JButton" binding="btnPause">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <text value="Pause"/>
+        </properties>
+      </component>
+      <component id="2c16c" class="javax.swing.JButton" binding="btnSave">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Save State"/>
+        </properties>
+      </component>
+      <component id="b2be7" class="javax.swing.JButton" binding="btnPlay">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <text value="Play"/>
+        </properties>
+      </component>
+      <component id="ff253" class="javax.swing.JButton" binding="btnLoad">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Load State"/>
+        </properties>
+      </component>
+      <component id="8219a" class="javax.swing.JButton" binding="btnExit">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <text value="Quit"/>
+        </properties>
+      </component>
+      <component id="56eee" class="javax.swing.JButton" binding="btnRestart">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <focusable value="false"/>
+          <text value="Restart"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
